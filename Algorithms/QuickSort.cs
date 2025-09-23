@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAPlayground
+namespace DSAPlayground.Algorithms
 {
     public static class QuickSort
     {
