@@ -6,6 +6,7 @@
 - Quick Sort
 - Linear Search
 - Binary Search
+- Fixed and Dynamic Sliding Window Algorithm
 
 **Core Data Structures**
 - Stack(Array)
@@ -15,3 +16,4 @@
 - Hash Table
 
 **Tree Data Structure**
+
