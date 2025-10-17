@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSAPlayground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42866dad50648c1e8506d4935f900a093a86f8ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfa41c0ac39cb57c27101681d50499ae240747ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSAPlayground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSAPlayground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
