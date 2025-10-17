@@ -1,4 +1,5 @@
 ﻿using DSAPlayground.Algorithms;
+using DSAPlayground.AVL_Tree;
 using DSAPlayground.CoreDataStructure;
 using DSAPlayground.Tree_Data_Structure;
 
@@ -8,19 +9,21 @@ namespace DSAPlayground
     {
         static void Main(string[] args)
         {
-            Trie trie = new Trie();
-            trie.Insert("cat");
-            trie.Insert("car");
-            trie.Insert("cart");
-            trie.Insert("care");
+            AVLTreeDemo.Run();
 
-            Console.WriteLine(trie.Search("car"));       // True
-            Console.WriteLine(trie.Search("coaxal"));      // False
-            Console.WriteLine(trie.StartsWith("ca"));    // True
-            Console.WriteLine(trie.StartsWith("dog"));   // False
+            //Trie trie = new Trie();
+            //trie.Insert("cat");
+            //trie.Insert("car");
+            //trie.Insert("cart");
+            //trie.Insert("care");
 
-            trie.Delete("cart");
-            Console.WriteLine(string.Join(", ", trie.GetWordsWithPrefix("ca"))); // cat, car, care
+            //Console.WriteLine(trie.Search("car"));       // True
+            //Console.WriteLine(trie.Search("coaxal"));      // False
+            //Console.WriteLine(trie.StartsWith("ca"));    // True
+            //Console.WriteLine(trie.StartsWith("dog"));   // False
+
+            //trie.Delete("cart");
+            //Console.WriteLine(string.Join(", ", trie.GetWordsWithPrefix("ca"))); // cat, car, care
 
             //BinarySearchTree bst = new BinarySearchTree();
             //bst.Insert(50);
